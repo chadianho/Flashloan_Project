@@ -29,6 +29,7 @@ If the directory doesn't exist, you can execute `pwd` to find out your current p
 
 ### 3. Create and Setup .env
 Before running any scripts, you'll need to create a .env file with the following values:
+
 ALCHEMY_API_KEY="" 
 PRIVATE_KEY=""
 
