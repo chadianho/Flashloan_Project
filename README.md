@@ -28,9 +28,10 @@ If the directory doesn't exist, you can execute `pwd` to find out your current p
 `npm install`
 
 ### 3. Create and Setup .env
-Before running any scripts, you'll want to create a .env file with the following values (see .env):
+Before running any scripts, you'll need to create a .env file with the following values:
+ALCHEMY_API_KEY="" 
+PRIVATE_KEY=""
 
-- **ALCHEMY_API_KEY=""**
 please input your mainnet alechmy api key just the last part of the url string. The url is already added in the code, it just needs your api key. The contract will only need your api and your private key because we are going to be forking the ethereum mainnet with hardhat. 
 
 ### 4. Run tests:
