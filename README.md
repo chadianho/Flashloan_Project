@@ -31,6 +31,7 @@ If the directory doesn't exist, you can execute `pwd` to find out your current p
 Before running any scripts, you'll need to create a .env file with the following values:
 
 ALCHEMY_API_KEY="" 
+
 PRIVATE_KEY=""
 
 please input your mainnet alechmy api key just the last part of the url string. The url is already added in the code, it just needs your api key. The contract will only need your api and your private key because we are going to be forking the ethereum mainnet with hardhat. 
